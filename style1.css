@@ -81,6 +81,7 @@ footer{
 }
 .footera:hover{
     font-size: 30px;
+    color: rgb(30, 236, 255);
 }
 p{
     margin: 0%;

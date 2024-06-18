@@ -1,82 +1,151 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
-}
-header{
+    }
+    header {
     text-align: center;
     margin: 0%;
-}
-h1{
+    }
+    h1 {
     margin: 0%;
     align-items: center;
     align-content: center;
-}
-h2{
+    }
+    h2 {
     margin-bottom: 50px;
     text-align: justify;
     font-size: 40px;
-}
-a{
+    }
+    a {
     text-decoration: none;
     color: white;
-}
-nav{
+    }
+    nav {
     display: flex;
     justify-content: center;
-}
-.menu{
+    }
+    .menu {
     margin-inline: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-img{
+    }
+    img {
     width: 80%;
-}
-.logo{
+    }
+    .logo {
     width: 150px;
-}
-.sectionimg{
+    }
+    .sectionimg {
     width: 300px;
-}
-.banner{
+    }
+    .banner {
     text-align: center;
-}
-.conheca{
+    }
+    .conheca {
     text-align: justify;
     margin: 100px;
     margin-top: 40px;
-}
-nav a{
+    }
+    nav a {
     color: black;
     font-size: 20px;
-}
-nav a:hover{
+    }
+    nav a:hover {
     color: rgb(64, 64, 255);
-}
-footer{
+    }
+    footer {
     background-color: blue;
     text-align: center;
     color: white;
-}
-.footerimg{
+    }
+    .footerimg {
     width: 25px;
-}
-.footeritems{
+    }
+    .footeritems {
     display: flex;
     justify-content: center;
     padding-top: 20px;
-}
-.footerdiv{
+    }
+    .footerdiv {
     margin-inline: 5%;
-}
-.footera:hover{
+    }
+    .footera:hover {
     font-size: 30px;
-    color: gray;
-}
-p{
+    color: rgb(30, 236, 255);
+    }
+    p {
     margin: 0%;
     padding-bottom: 10px;
-}
-section p{
+    }
+    section p {
     font-size: 20px;
-}
+    }
+     
+    .box {
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    }
+    fieldset {
+    border: 3px solid white;
+    }
+    legend {
+    color: blue;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .inputBox {
+    position: relative;
+    }
+    .inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    }
+    .labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 0.5s;
+    }
+    .inputUser:focus ~ .labelInput,
+    .inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: white;
+    }
+    #data_nascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    }
+    #submit {
+    color: black;
+    background-color: white;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+    #submit:hover {
+    background-color: dodgerblue;
+    color: white;
+    }
