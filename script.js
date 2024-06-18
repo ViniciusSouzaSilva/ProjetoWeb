@@ -7,5 +7,5 @@ function confirmar(){
     let estado = document.getElementById("estado").value
     let endereco = document.getElementById("endereco").value
 
-    alert(`Dados a serem cadastrados:\n\nNome: ${nome}\nEmail: ${email}\nTelefone: ${tel}\nData de nascimento: ${data}\nCidade: ${cidade}\nEstado: ${estado}\nEndereço: ${endereco}`)
+    alert(`Entraremos em contato:\n\nNome: ${nome}\nEmail: ${email}\nTelefone: ${tel}\nData de nascimento: ${data}\nCidade: ${cidade}\nEstado: ${estado}\nEndereço: ${endereco}`)
 }
